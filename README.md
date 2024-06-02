@@ -35,19 +35,19 @@ To install the dApp, follow these steps:
 ```
 git clone https://github.com/Kexueyi/dApp_p2p_energy_trading
 ```
-1. Navigate to the project directory and install the dependencies using the following command:
+2. Navigate to the project directory and install the dependencies using the following command:
 ```
 npm install
 ```
-1. Compile the smart contracts using the following command:
+3. Compile the smart contracts using the following command:
 ```
 truffle compile
 ```
-1. Migrate the smart contracts to the local blockchain using the following command:
+4. Migrate the smart contracts to the local blockchain using the following command:
 ```
 truffle migrate
 ```
-1. Start the development server using the following command:
+5. Start the development server using the following command:
 ```
 npm run start
 ```
