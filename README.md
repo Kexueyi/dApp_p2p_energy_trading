@@ -9,6 +9,7 @@ The dApp allows users:
 - a user interface that allows users to interact with the smart contracts and view their energy trading history.
 
 ## Video
+Click on the image below to watch a video demonstration of the dApp:
 [![DApp for P2P Energy Trading (Double Auction) | Using Flutter, dart, private PoA Geth Network](https://img.youtube.com/vi/kg1vx3i1410/0.jpg)](https://youtu.be/kg1vx3i1410)
 
 ## Installation
