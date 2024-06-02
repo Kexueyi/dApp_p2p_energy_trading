@@ -1,32 +1,47 @@
-# dApp
-
-A new Flutter project.
-
-## Getting Started
-
-FlutterFlow projects are built to run on the Flutter _stable_ release.
-
-### IMPORTANT:
-
-For projects with Firestore integration, you must first run the following commands to ensure the project compiles:
-
-```
-flutter pub get
-flutter packages pub run build_runner build --delete-conflicting-outputs
-```
-
-This command creates the generated files that parse each Record from Firestore into a schema object.
-
-### Getting started continued:
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 # dApp_p2p_energy_trading
+
+## Description
+This project is a decentralized application (dApp) for peer-to-peer energy trading. The dApp is built on the Ethereum blockchain and uses the Solidity programming language.
+
+The dApp allows users:
+- buy and sell energy from each other without the need for a centralized intermediary.
+- uses smart contracts to facilitate the energy trading process and ensure that transactions are secure and transparent. 
+- a user interface that allows users to interact with the smart contracts and view their energy trading history.
+
+## Video
+[![DApp for P2P Energy Trading (Double Auction) | Using Flutter, dart, private PoA Geth Network](https://img.youtube.com/vi/kg1vx3i1410/0.jpg)](https://youtu.be/kg1vx3i1410)
+
+## Installation
+To run the dApp, you will need to have the following software installed on your computer:
+- Xcode/Android Studio (for iOS/Android development)
+- Node.js
+- Firebase
+- Flutter
+- Truffle
+- Ganache
+- Metamask
+- Solidity
+- Web3.js
+  
+To install the dApp, follow these steps:
+1. Clone the repository to your computer using the following command:
+```
+git clone https://github.com/Kexueyi/dApp_p2p_energy_trading
+```
+2. Navigate to the project directory and install the dependencies using the following command:
+```
+npm install
+```
+3. Compile the smart contracts using the following command:
+```
+truffle compile
+```
+4. Migrate the smart contracts to the local blockchain using the following command:
+```
+truffle migrate
+```
+5. Start the development server using the following command:
+```
+npm run start
+```
+

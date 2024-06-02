@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\6edb26cd3b1d1c74caeb088525ff5e36\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\6edb26cd3b1d1c74caeb088525ff5e36\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\6edb26cd3b1d1c74caeb088525ff5e36\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\6edb26cd3b1d1c74caeb088525ff5e36\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\6edb26cd3b1d1c74caeb088525ff5e36\\transformed\\core-1.6.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    }
+]

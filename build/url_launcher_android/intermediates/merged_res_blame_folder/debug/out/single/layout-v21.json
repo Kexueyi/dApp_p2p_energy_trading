@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\url_launcher_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\6edb26cd3b1d1c74caeb088525ff5e36\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\url_launcher_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\6edb26cd3b1d1c74caeb088525ff5e36\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\url_launcher_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\6edb26cd3b1d1c74caeb088525ff5e36\\transformed\\core-1.6.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\url_launcher_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\6edb26cd3b1d1c74caeb088525ff5e36\\transformed\\core-1.6.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\video_player_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\8b4ea7afe70d7d93430ceec3d5e96c2b\\transformed\\core-1.7.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\video_player_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\8b4ea7afe70d7d93430ceec3d5e96c2b\\transformed\\core-1.7.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\video_player_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\8b4ea7afe70d7d93430ceec3d5e96c2b\\transformed\\core-1.7.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\video_player_android\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\8b4ea7afe70d7d93430ceec3d5e96c2b\\transformed\\core-1.7.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

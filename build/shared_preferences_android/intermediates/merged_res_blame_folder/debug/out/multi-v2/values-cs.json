@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Desktop\\d_app_sepolia\\build\\shared_preferences_android\\intermediates\\res\\merged\\debug\\values-cs\\values-cs.xml",
+            "map": [
+                {
+                    "source": "D:\\Android\\.gradle\\caches\\transforms-3\\6edb26cd3b1d1c74caeb088525ff5e36\\transformed\\core-1.6.0\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Desktop\\d_app_sepolia\\build\\shared_preferences_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-cs\\values-cs.xml",
+            "map": [
+                {
+                    "source": "D:\\Android\\.gradle\\caches\\transforms-3\\6edb26cd3b1d1c74caeb088525ff5e36\\transformed\\core-1.6.0\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

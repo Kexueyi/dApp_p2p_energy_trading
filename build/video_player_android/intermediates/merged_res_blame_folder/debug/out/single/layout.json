@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\video_player_android\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\8b4ea7afe70d7d93430ceec3d5e96c2b\\transformed\\core-1.7.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\video_player_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\8b4ea7afe70d7d93430ceec3d5e96c2b\\transformed\\core-1.7.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\video_player_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\8b4ea7afe70d7d93430ceec3d5e96c2b\\transformed\\core-1.7.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\video_player_android\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\8b4ea7afe70d7d93430ceec3d5e96c2b\\transformed\\core-1.7.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\video_player_android\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\8b4ea7afe70d7d93430ceec3d5e96c2b\\transformed\\core-1.7.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Desktop\\d_app_sepolia\\build\\video_player_android\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "D:\\Android\\.gradle\\caches\\transforms-3\\8b4ea7afe70d7d93430ceec3d5e96c2b\\transformed\\core-1.7.0\\res\\layout\\notification_template_icon_group.xml"
+    }
+]

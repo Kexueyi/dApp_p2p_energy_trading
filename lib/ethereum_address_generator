@@ -1,0 +1,51 @@
+import 'dart:convert';
+import 'dart:typed_data';
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'package:web3dart/web3dart.dart';
+import 'package:bip39/bip39.dart' as bip39;
+import 'package:crypto/crypto.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_database/firebase_database.dart';
+import 'package:hex/hex.dart';
+
+Future<EthereumAddress> createEthereumAddressFromEmailAndPassword(
+    String email, String password) async {
+  // Initialize Firebase if not already
+  await Firebase.initializeApp();
+
+  // Authenticate the user with email and password
+  UserCredential userCredential = await FirebaseAuth.instance.signInWithEmailAndPassword(
+    email: email,
+    password: password,
+  );
+  User? firebaseUser = userCredential.user;
+
+  // Concatenate email and password to create a unique seed
+  final String seedInput = email + password;
+
+  // Generate a hash of the seed input
+  final List<int> seedHash = sha256.convert(utf8.encode(seedInput)).bytes;
+
+  // Use the hash as the seed to generate a BIP39 mnemonic
+  final String mnemonic = bip39.entropyToMnemonic(HexEncoder().convert(seedHash));
+  // Generate a private key from the mnemonic
+  final Uint8List seed = bip39.mnemonicToSeed(mnemonic);
+  final privateKey = EthPrivateKey.fromHex(HexEncoder().convert(seed));
+
+  // Get the corresponding Ethereum address from the private key
+  final EthereumAddress address = await privateKey.extractAddress();
+
+  // Save the user's Ethereum address and private key to Firebase Realtime Database
+  if (firebaseUser != null) {
+    DatabaseReference userRef = FirebaseDatabase.instance.reference().child('users').child(firebaseUser.uid);
+    await userRef.set({
+      'ethereum_address': address.hex,
+      'private_key': HEX.encode(privateKey.privateKey),
+    });
+    print('Ethereum address and private key saved');
+  }
+
+  return address;
+}
